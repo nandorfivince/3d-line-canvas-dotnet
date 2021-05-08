@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mfW8JJZdr78KE6zr2GFCPfBgdCCW6OANTYx4EgvB8N7L5suU8lJLwTCnvFeF9Mmp6S/L1NmperEMKTusucEprw==",
+  "dgSpecHash": "u+hzrp5/itKDgsMbyES2ub5Xs8JRZQmyAMx8iVtYzVVR2930zIMRxUCHDodUTNJjLwabGYiBSHbvXsbgV9C53g==",
   "success": true,
-  "projectFilePath": "C:\\git\\dotnet\\3DLine\\3DLine\\3DLine.csproj",
+  "projectFilePath": "C:\\git\\3d-line-canvas-dotnet\\3DLine\\3DLine\\3DLine.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -20,7 +20,7 @@ namespace _3DLine
     /// </summary>
     public partial class MainWindow : Window
     {
-        private double lineWidth = 3d;
+        private double lineWidth = 10d;
         private Line line = null;
 
         private double x1, x2, y1, y2 = 0.0d;
@@ -30,13 +30,16 @@ namespace _3DLine
             InitializeComponent();
             line = new Line
             {
-                X1 = 0,
-                Y1 = 0,
-                X2 = 100,
-                Y2 = 100,
+                X1 = 100,
+                Y1 = 100,
+                X2 = 300,
+                Y2 = 300,
                 Stroke = new SolidColorBrush(Colors.Black),
                 StrokeThickness = 10
             };
+
+            ReadLineData();
+
             myCanvas.Children.Add(line);
         }
 
@@ -56,17 +59,24 @@ namespace _3DLine
                 line.X2 = x2;
                 line.Y1 = y1;
                 line.Y2 = y2;
+
+                myCanvas.UpdateLayout();
             }
+        }
+
+        private void ReadLineData()
+        {
+            x1 = line.X1;
+            x2 = line.X2;
+            y1 = line.Y1;
+            y2 = line.Y2;
         }
 
         async void btnX1_Click(object sender, RoutedEventArgs e)
         {
             var btn = (sender as Button);
 
-            x1 = line.X1;
-            x2 = line.X2;
-            y1 = line.Y1;
-            y2 = line.Y2;
+            ReadLineData();
 
             switch (btn.Content.ToString())
             {

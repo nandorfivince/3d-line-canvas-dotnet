@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\git\\dotnet\\3DLine\\3DLine\\3DLine.csproj": {}
+    "C:\\git\\3d-line-canvas-dotnet\\3DLine\\3DLine\\3DLine.csproj": {}
   },
   "projects": {
-    "C:\\git\\dotnet\\3DLine\\3DLine\\3DLine.csproj": {
+    "C:\\git\\3d-line-canvas-dotnet\\3DLine\\3DLine\\3DLine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\dotnet\\3DLine\\3DLine\\3DLine.csproj",
+        "projectUniqueName": "C:\\git\\3d-line-canvas-dotnet\\3DLine\\3DLine\\3DLine.csproj",
         "projectName": "3DLine",
-        "projectPath": "C:\\git\\dotnet\\3DLine\\3DLine\\3DLine.csproj",
+        "projectPath": "C:\\git\\3d-line-canvas-dotnet\\3DLine\\3DLine\\3DLine.csproj",
         "packagesPath": "C:\\Users\\Nándorfi Vince\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\dotnet\\3DLine\\3DLine\\obj\\",
+        "outputPath": "C:\\git\\3d-line-canvas-dotnet\\3DLine\\3DLine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
